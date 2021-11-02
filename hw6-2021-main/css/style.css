@@ -40,7 +40,8 @@ a:visited{
   background-color: #288088;
   border: 2px solid #45ADAD;
   padding: 20px 20px;
-  border-radius: 7px 7px;
+  border-top-left-radius: : 7px;
+  border-top-right-radius: 7px;
 
 }
 
@@ -148,6 +149,32 @@ a:visited{
 
     background-image: none;
     font-family: "Alegreya Sans SC", serif;
+
+  }
+
+  .nav_links{
+
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .card{
+
+    border: 2px solid #45ADDD;
+    flex-basis: 250px;
+
+  }
+
+  .pricing{
+
+    display: flex;
+    align-items: flex-end;
+
+  }
+
+  #gallery, .gallery{
+
+    display: none;
 
   }
 
